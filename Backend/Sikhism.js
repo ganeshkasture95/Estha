@@ -1,0 +1,135 @@
+const sikhismGurudwara =
+    [
+        {
+            "id": "Golden_Temple",
+            "name": "Golden Temple",
+            "shortDescription": "The holiest Gurdwara and the most important pilgrimage site of Sikhism, located in Amritsar, Punjab.",
+            "location": "Amritsar, Punjab",
+            "religion": "Sikh",
+            "imageurl": "https://i.pinimg.com/originals/32/7b/a3/327ba3eae2f8eb183e44f51b165fabc2.jpg",
+            "arcitectureImageURL": "https://wallpaperaccess.com/full/2399734.jpg",
+            "tempelLogoURL": "https://i.pinimg.com/originals/32/7b/a3/327ba3eae2f8eb183e44f51b165fabc2.jpg",
+            "briefDescription": "The Golden Temple, also known as Harmandir Sahib, is a central religious place of the Sikhs. It is an architectural marvel made of gold and marble.",
+            "liveurl": "https://www.youtube.com/embed/iw1pwrvkyG4",
+            "color": "gold"
+        },
+        {
+            "id": "Bangla_Sahib",
+            "name": "Gurdwara Bangla Sahib",
+            "shortDescription": "A prominent Sikh gurdwara in Delhi known for its association with the eighth Sikh Guru, Guru Har Krishan.",
+            "location": "Delhi",
+            "religion": "Sikh",
+            "imageurl": "https://i.pinimg.com/originals/a8/0d/b6/a80db6e4e3df8b25576e348d5b123542.jpg",
+            "arcitectureImageURL": "https://wallpaperaccess.com/full/2098392.jpg",
+            "tempelLogoURL": "https://i.pinimg.com/originals/a8/0d/b6/a80db6e4e3df8b25576e348d5b123542.jpg",
+            "briefDescription": "Gurdwara Bangla Sahib is renowned for its association with Guru Har Krishan, the eighth Sikh Guru, and is a symbol of service and humility.",
+            "liveurl": "https://www.youtube.com/embed/7Ns4iMUBG1o",
+            "color": "white"
+        },
+        {
+            "id": "Sis_Ganj_Sahib",
+            "name": "Gurdwara Sis Ganj Sahib",
+            "shortDescription": "A historic Sikh gurdwara in Delhi marking the martyrdom site of Guru Tegh Bahadur.",
+            "location": "Delhi",
+            "religion": "Sikh",
+            "imageurl": "https://i.pinimg.com/originals/5f/4f/df/5f4fdfcedb8f4e30701f2d18f0840d15.jpg",
+            "arcitectureImageURL": "https://wallpaperaccess.com/full/3294740.jpg",
+            "tempelLogoURL": "https://i.pinimg.com/originals/5f/4f/df/5f4fdfcedb8f4e30701f2d18f0840d15.jpg",
+            "briefDescription": "Gurdwara Sis Ganj Sahib is built at the site where Guru Tegh Bahadur was martyred in 1675.",
+            "liveurl": "https://www.youtube.com/embed/eiZbw8i2_N8",
+            "color": "yellow"
+        },
+        {
+            "id": "Hemkund_Sahib",
+            "name": "Gurudwara Hemkund Sahib",
+            "shortDescription": "A Sikh place of worship and pilgrimage site in Chamoli district, Uttarakhand.",
+            "location": "Chamoli, Uttarakhand",
+            "religion": "Sikh",
+            "imageurl": "https://i.pinimg.com/originals/3b/23/b2/3b23b2cf45c6f6c3e9c39939e12d9f0a.jpg",
+            "arcitectureImageURL": "https://wallpaperaccess.com/full/4378493.jpg",
+            "tempelLogoURL": "https://i.pinimg.com/originals/3b/23/b2/3b23b2cf45c6f6c3e9c39939e12d9f0a.jpg",
+            "briefDescription": "Gurudwara Hemkund Sahib is dedicated to Guru Gobind Singh and is located at an altitude of 4,632 meters in the Himalayas.",
+            "liveurl": "https://www.youtube.com/embed/UOo_BV4OVFc",
+            "color": "blue"
+        },
+        {
+            "id": "Patna_Sahib",
+            "name": "Takht Sri Patna Sahib",
+            "shortDescription": "A Gurdwara in Patna, Bihar, marking the birthplace of Guru Gobind Singh, the tenth Sikh Guru.",
+            "location": "Patna, Bihar",
+            "religion": "Sikh",
+            "imageurl": "https://i.pinimg.com/originals/54/1b/23/541b239c4d39e23d30e9e6b4f2e0c94a.jpg",
+            "arcitectureImageURL": "https://wallpaperaccess.com/full/2984730.jpg",
+            "tempelLogoURL": "https://i.pinimg.com/originals/54/1b/23/541b239c4d39e23d30e9e6b4f2e0c94a.jpg",
+            "briefDescription": "Takht Sri Patna Sahib is one of the five Takhts of Sikhism and is the birthplace of Guru Gobind Singh.",
+            "liveurl": "https://www.youtube.com/embed/DRXQ7FS6Uj8",
+            "color": "white"
+        },
+        {
+            "id": "Damdama_Sahib",
+            "name": "Takht Sri Damdama Sahib",
+            "shortDescription": "A Gurdwara in Bathinda, Punjab, associated with Guru Gobind Singh and one of the five Takhts.",
+            "location": "Bathinda, Punjab",
+            "religion": "Sikh",
+            "imageurl": "https://i.pinimg.com/originals/5e/2e/7f/5e2e7f479a9bc4b69b4e22683b75a9f7.jpg",
+            "arcitectureImageURL": "https://wallpaperaccess.com/full/3483750.jpg",
+            "tempelLogoURL": "https://i.pinimg.com/originals/5e/2e/7f/5e2e7f479a9bc4b69b4e22683b75a9f7.jpg",
+            "briefDescription": "Takht Sri Damdama Sahib is where Guru Gobind Singh prepared the full version of the Sikh scriptures, the Guru Granth Sahib.",
+            "liveurl": "https://www.youtube.com/embed/V4UbyGIkJik",
+            "color": "blue"
+        },
+        {
+            "id": "Hazur_Sahib",
+            "name": "Takht Sri Hazur Sahib",
+            "shortDescription": "A Gurdwara in Nanded, Maharashtra, where Guru Gobind Singh spent his final days.",
+            "location": "Nanded, Maharashtra",
+            "religion": "Sikh",
+            "imageurl": "https://i.pinimg.com/originals/8e/4e/6e/8e4e6e3e6ea4e8d88ab5e6f58e586b21.jpg",
+            "arcitectureImageURL": "https://wallpaperaccess.com/full/4025842.jpg",
+            "tempelLogoURL": "https://i.pinimg.com/originals/8e/4e/6e/8e4e6e3e6ea4e8d88ab5e6f58e586b21.jpg",
+            "briefDescription": "Takht Sri Hazur Sahib is one of the five Takhts and marks the place where Guru Gobind Singh died.",
+            "liveurl": "https://www.youtube.com/embed/O7NofhMJGdM",
+            "color": "white"
+        },
+        {
+            "id": "Keshgarh_Sahib",
+            "name": "Takht Sri Keshgarh Sahib",
+            "shortDescription": "A Gurdwara in Anandpur Sahib, Punjab, where the Khalsa was founded by Guru Gobind Singh in 1699.",
+            "location": "Anandpur Sahib, Punjab",
+            "religion": "Sikh",
+            "imageurl": "https://i.pinimg.com/originals/4e/0e/3e/4e0e3ed469a2e0e6d530b2b75805d635.jpg",
+            "arcitectureImageURL": "https://wallpaperaccess.com/full/4957364.jpg",
+            "tempelLogoURL": "https://i.pinimg.com/originals/4e/0e/3e/4e0e3ed469a2e0e6d530b2b75805d635.jpg",
+            "briefDescription": "Takht Sri Keshgarh Sahib is the birthplace of the Khalsa, the collective body of all initiated Sikhs, founded by Guru Gobind Singh.",
+            "liveurl": "https://www.youtube.com/embed/smk5d0J7ho4",
+            "color": "blue"
+        },
+        {
+            "id": "Janam_Asthan",
+            "name": "Gurdwara Janam Asthan",
+            "shortDescription": "A Gurdwara in Nankana Sahib, Pakistan, marking the birthplace of Guru Nanak, the founder of Sikhism.",
+            "location": "Nankana Sahib, Pakistan",
+            "religion": "Sikh",
+            "imageurl": "https://i.pinimg.com/originals/3d/7c/17/3d7c179b79ff4783bde5101c46c8d499.jpg",
+            "arcitectureImageURL": "https://wallpaperaccess.com/full/5283830.jpg",
+            "tempelLogoURL": "https://i.pinimg.com/originals/3d/7c/17/3d7c179b79ff4783bde5101c46c8d499.jpg",
+            "briefDescription": "Gurdwara Janam Asthan marks the birthplace of Guru Nanak, the first Sikh Guru, and is a major pilgrimage site.",
+            "liveurl": "https://www.youtube.com/embed/2YeHHiZhU-g",
+            "color": "white"
+        },
+        {
+            "id": "Paonta_Sahib",
+            "name": "Gurdwara Paonta Sahib",
+            "shortDescription": "A Gurdwara in Sirmaur district, Himachal Pradesh, associated with Guru Gobind Singh.",
+            "location": "Sirmaur, Himachal Pradesh",
+            "religion": "Sikh",
+            "imageurl": "https://i.pinimg.com/originals/4f/0d/8f/4f0d8fb50b84743ad1d42d9c39be2c62.jpg",
+            "arcitectureImageURL": "https://wallpaperaccess.com/full/4984070.jpg",
+            "tempelLogoURL": "https://i.pinimg.com/originals/4f/0d/8f/4f0d8fb50b84743ad1d42d9c39be2c62.jpg",
+            "briefDescription": "Gurdwara Paonta Sahib is a significant place where Guru Gobind Singh wrote many religious texts.",
+            "liveurl": "https://www.youtube.com/embed/0H3oTbqCWb8",
+            "color": "yellow"
+        }
+    ]
+
+export default sikhismGurudwara
